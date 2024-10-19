@@ -1,0 +1,64 @@
+/* Custom Cursors */
+/* In path of cursor i.e [./image/{dark or light}/cursor/pointer.cur ]
+    use dark if you want dark(black) cursor or use light for light(white) cursor.
+*/
+/* Copy this cursor.css file code and paste it into you css file.*/
+* {
+    cursor: url('./image/dark/cursor/pointer.cur'), auto;
+}
+
+p, h1, h2, input, textarea {
+    cursor: url('./image/dark/cursor/beam.cur'), text;
+}
+
+a, button {
+    cursor: url('./image/dark/cursor/link.cur'), pointer;
+}
+
+.draggable {
+    cursor: url('./image/dark/cursor/move.cur'), move;
+}
+
+.crosshair {
+    cursor: url('./image/dark/cursor/crosshair.cur'), crosshair;
+}
+
+.help {
+    cursor: url('./image/dark/cursor/help.cur'), help;
+}
+
+.wait {
+    cursor: url('./image/dark/cursor/working.ani'), wait;
+}
+
+.not-allowed {
+    cursor: url('./image/dark/cursor/unavailable.cur'), not-allowed;
+}
+
+.zoom-in {
+    cursor: url('./image/dark/cursor/precision.cur'), zoom-in;
+}
+
+.zoom-out {
+    cursor: url('./image/dark/cursor/precision.cur'), zoom-out;
+}
+
+.resize-north-south {
+    cursor: url('./image/dark/cursor/vert.cur'), ns-resize;
+}
+
+.resize-east-west {
+    cursor: url('./image/dark/cursor/horz.cur'), ew-resize;
+}
+
+.resize-north-east-south-west {
+    cursor: url('./image/dark/cursor/dgn2.cur'), nesw-resize;
+}
+
+.resize-north-west-south-east {
+    cursor: url('./image/dark/cursor/dgn1.cur'), nwse-resize;
+}
+
+.grab {
+    cursor: url('./image/dark/cursor/link.cur'), grab;
+}

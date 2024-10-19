@@ -1,0 +1,88 @@
+/* Base styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    padding: 20px;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+/* Style for inputs and text areas */
+input, textarea {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Cursor test boxes */
+.cursor-box {
+    display: inline-block;
+    width: 200px;
+    height: 150px;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+    cursor: default;
+}
+
+.cursor-box:hover {
+    background-color: #f0f0f0;
+    border-color: #333;
+}
+
+
+
+/* Button styling */
+button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Link styling */
+a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+a:hover {
+    color: #555;
+}
