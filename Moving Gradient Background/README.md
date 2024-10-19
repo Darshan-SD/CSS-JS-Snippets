@@ -1,4 +1,7 @@
 # :art: Moving Gradient Background
+A simple and elegant gradient background that moves in a smooth and continuous manner.
+
+![Moving Gradient Example](./example.gif)
 
 ## :star: Features
 - **Moving Gradient Background**: The background moves in a smooth and continuous manner.
