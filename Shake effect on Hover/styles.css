@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  .shake-container {
+    text-align: center;
+  }
+  
+  .shake {
+    font-size: 36px;
+    transition: transform 0.3s;
+  }
+  #shakeButton{
+    padding: 15px 30px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #007BFF; /* Bootstrap Primary Color */
+    border: none;
+    border-radius: 8px;
+  }
+  @keyframes shake {
+    0% { transform: translate(1px, 0); }
+    25% { transform: translate(-1px, 0); }
+    50% { transform: translate(1px, 0); }
+    75% { transform: translate(-1px, 0); }
+    100% { transform: translate(1px, 0); }
+  }
+  
+  .shake-animation {
+    animation: shake 0.5s;
+  }
+  
